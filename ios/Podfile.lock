@@ -1,0 +1,117 @@
+PODS:
+  - Braintree/ApplePay (5.6.3):
+    - Braintree/Core
+  - Braintree/Card (5.6.3):
+    - Braintree/Core
+  - Braintree/Core (5.6.3)
+  - Braintree/PaymentFlow (5.6.3):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+  - Braintree/PayPal (5.6.3):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+  - Braintree/PayPalDataCollector (5.6.3)
+  - Braintree/ThreeDSecure (5.6.3):
+    - Braintree/Card
+    - Braintree/PaymentFlow
+  - Braintree/UnionPay (5.6.3):
+    - Braintree/Card
+  - Braintree/Venmo (5.6.3):
+    - Braintree/Core
+  - BraintreeDropIn (9.4.0):
+    - Braintree/ApplePay (~> 5.6.1)
+    - Braintree/Card (~> 5.6.1)
+    - Braintree/Core (~> 5.6.1)
+    - Braintree/PayPal (~> 5.6.1)
+    - Braintree/ThreeDSecure (~> 5.6.1)
+    - Braintree/UnionPay (~> 5.6.1)
+    - Braintree/Venmo (~> 5.6.1)
+  - Flutter (1.0.0)
+  - flutter_braintree (1.0.0):
+    - Braintree/ApplePay (~> 5.6.3)
+    - Braintree/PayPal (~> 5.6.3)
+    - BraintreeDropIn (= 9.4.0)
+    - Flutter
+  - google_maps_flutter_ios (0.0.1):
+    - Flutter
+    - GoogleMaps (< 8.0)
+  - GoogleMaps (5.2.0):
+    - GoogleMaps/Maps (= 5.2.0)
+  - GoogleMaps/Base (5.2.0)
+  - GoogleMaps/Maps (5.2.0):
+    - GoogleMaps/Base
+  - maps_launcher (0.0.1):
+    - Flutter
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+  - wakelock (0.0.1):
+    - Flutter
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_braintree (from `.symlinks/plugins/flutter_braintree/ios`)
+  - google_maps_flutter_ios (from `.symlinks/plugins/google_maps_flutter_ios/ios`)
+  - maps_launcher (from `.symlinks/plugins/maps_launcher/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/ios`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/ios`)
+  - wakelock (from `.symlinks/plugins/wakelock/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Braintree
+    - BraintreeDropIn
+    - GoogleMaps
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_braintree:
+    :path: ".symlinks/plugins/flutter_braintree/ios"
+  google_maps_flutter_ios:
+    :path: ".symlinks/plugins/google_maps_flutter_ios/ios"
+  maps_launcher:
+    :path: ".symlinks/plugins/maps_launcher/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/ios"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/ios"
+  wakelock:
+    :path: ".symlinks/plugins/wakelock/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
+
+SPEC CHECKSUMS:
+  Braintree: cef7388a3647515f1e0861e52200c2f3dad0f98f
+  BraintreeDropIn: 89df35f840004affa22ebb8f06b12d20615411bf
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_braintree: 72276002464c36b1d5a6266fbdb94c0b600e62fd
+  google_maps_flutter_ios: abdac20d6ce8931f6ebc5f46616df241bfaa2cfd
+  GoogleMaps: 025272d5876d3b32604e5c080dc25eaf68764693
+  maps_launcher: 2e5b6a2d664ec6c27f82ffa81b74228d770ab203
+  path_provider_foundation: 29f094ae23ebbca9d3d0cec13889cd9060c0e943
+  shared_preferences_foundation: 5b919d13b803cadd15ed2dc053125c68730e5126
+  url_launcher_ios: 68d46cc9766d0c41dbdc884310529557e3cd7a86
+  video_player_avfoundation: 81e49bb3d9fb63dccf9fa0f6d877dc3ddbeac126
+  wakelock: d0fc7c864128eac40eba1617cb5264d9c940b46f
+  webview_flutter_wkwebview: b7e70ef1ddded7e69c796c7390ee74180182971f
+
+PODFILE CHECKSUM: ef19549a9bc3046e7bb7d2fab4d021637c0c58a3
+
+COCOAPODS: 1.13.0
